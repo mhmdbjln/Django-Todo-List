@@ -43,6 +43,16 @@ python manage.py createsuperuser
 
 The admin site is available at http://127.0.0.1:8000/admin/.
 
+## Source bundle
+
+The full Django application source is included as `source-code.tar.xz` in the repository root. After cloning the repository, extract it from the project root:
+
+```bash
+tar -xJf source-code.tar.xz
+```
+
+The archive contains `manage.py`, the Django project and app packages, templates, static assets, and migrations. The local development database is excluded.
+
 ## Security and repository notes
 
 - The supplied development database is not included. Run migrations to create a fresh local database.
